@@ -26,25 +26,37 @@
         color: green;
       }
 
-      header {
+      header section {
         display: flex;
         justify-content: space-between;
         align-items: center;
         max-width: 800px;
         margin: auto;
       }
+
+      header div>p {
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
 
     <header>
-      <div>
+      <section>
+        <div>
         <img style="height: 70px;" src="./assets/world-health.jpeg">
       </div>
       <div>
         <img style="height: 70px; width: 70px;" src="./assets/govern.jpeg" alt="government-image">
       </div>
+      </section>
+      <div>
+        <p>Meningococcal (A,C,W 135) Vaccination Verification</p>
+      </div>
     </header>
+
     <main>
       <div class="verification-text">
         <img style="height: 40px; width: 40px;" src="./assets/check.png" alt="verified image" />
